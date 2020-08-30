@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+li {
+  list-style: none;
+  margin-right: 5rem;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  width: 100%;
+  height: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav,
+h2 {
+  margin-left: 1rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(50, 187, 205);
+  color: white;
+}
+
+.header-two {
+  width: 100%;
+  height: 40rem;
+  background-color: rgb(50, 187, 205);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header-main {
+  font-size: 1.2rem;
+}
+
+.header-maintitle {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.about {
+  width: 100%;
+  padding-bottom: 5rem;
+  line-height: 2.5rem;
+  align-items: center;
+}
+
+.main-title {
+  color: rgb(50, 187, 205);
+  font-size: 2rem;
+  line-height: 5rem;
+}
+
+.main-text {
+  font-size: 0.875rem;
+  color: rgb(50, 187, 205);
+}
+
+.main-boxs {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.main-box {
+  width: calc(33.33% - 1.5rem);
+}
+
+.main-img {
+  width: 100%;
+  height: 18rem;
+}
+
+.howtostudy {
+  width: 100%;
+  position: relative;
+}
+
+.bgc {
+  width: 100%;
+  height: 37.5rem;
+  background: #c4c4c4;
+}
+
+.howtostudy-box {
+  display: inline-block;
+  padding: 6rem 3.5rem;
+  background:wheat;
+  box-shadow:10px 10px 15px -10px gray;
+  position: absolute;
+  top: -3rem;
+  left: 7rem;
+  box-shadow:0 0 0.5rem gray;
+}
+
+.howtostudy-bgc {
+  width: 31.25rem;
+  margin: 0 auto;
+}
+
+.howtostudy-bgc p {
+  padding: 1.5rem 0;
+}
+
+.howtostudy-bgc h2 {
+  color:white;
+  font-size: 3rem;
+}
+
+.howtostudy-footer {
+  width: 100%;
+  background: #282f39;
+}
+
+.main-box-img {
+  width: 100%;
+  height: 12.5rem;
+  margin-bottom: 0.5rem;
+}
+
+
+.img-title {
+display: flex;
+color:white;
+}
+
+.img-title p {
+  font-size: 2rem;
+  position: relative;
+  padding: 0.5rem;
+  font-family: Roboto;
+}
+
+
+.img-title p::after {
+  content: "";
+  width: 100%;
+  height: 0.125rem;
+  background: #fff;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.study-text {
+  width: 75%;
+  font-weight: normal;
+  line-height: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.img-p {
+  margin-top: 1.5rem;
+}
+
+.img-p p {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.howtostudy-footer .main-box {
+  position: relative;
+  top: -4.5rem;
+}
+.message {
+  width: 100%;
+  padding: 5rem 0;
+  background: #d8d3d3;
+  
+}
+
+.message-box {
+  width: 75%;
+  height: 37.5rem;
+  position: relative;
+  margin-left: 160px;
+}
+
+.message-img {
+  width: 50%;
+  padding: 0 1.2rem;
+}
+
+.message-text {
+  width:45%;
+  position: absolute; 
+  bottom: -25px; 
+  right: 0;
+  line-height: 3rem;
+}
+
+.message-text h2 {
+text-align: center;
+}
+
+.message-text p {
+  color: #fff;
+}
+
+footer {
+  width: 100%;
+  padding: 3rem 0;
+}
+ 
+footer a {
+  padding: 1rem 6rem;
+  font-size: 2rem;
+  background: #35c8e2;
+}
+ 
+
